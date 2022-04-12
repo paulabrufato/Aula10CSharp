@@ -1,0 +1,16 @@
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.csproj.AssemblyReference.cache
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.AssemblyInfoInputs.cache
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.AssemblyInfo.cs
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.csproj.CoreCompileInputs.cache
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\bin\Debug\net5.0\Animais.exe
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\bin\Debug\net5.0\Animais.deps.json
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\bin\Debug\net5.0\Animais.runtimeconfig.json
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\bin\Debug\net5.0\Animais.runtimeconfig.dev.json
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\bin\Debug\net5.0\Animais.dll
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\bin\Debug\net5.0\Animais.pdb
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.dll
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\refint\Animais.dll
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.pdb
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\Animais.genruntimeconfig.cache
+C:\Users\paula\OneDrive\Área de Trabalho\Atividades\Aula10CSharp\Animais\obj\Debug\net5.0\ref\Animais.dll
