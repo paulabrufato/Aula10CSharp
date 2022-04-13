@@ -3,27 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-namespace Calculadora.src
+namespace CalcArea.src
 {
-    public class Retangulo : Calculos
-    {
-         public double Altura { get; set; }
-        public double Base { get; set; }
-        public double AreaRetangulo { get; set; }
-        
-      
-
-        public Retangulo(){}
-
-        public Retangulo(double altura, double Base, double AreaRetangulo)
+    public class Retangulo : Formas
+    {   
+        public Retangulo(string _nome, double _base, double _altura) : base(_nome, _base, _altura)
         {
-           
-            Altura = altura;
-            Base = Base;
-            AreaRetangulo = _calculos.Multiplicar(Altura, Base);
-
         }
-              
+
+        public override double CalcularArea()
+        {
+            double area = Base * Altura;
+            return area;
+        }
     }
 }

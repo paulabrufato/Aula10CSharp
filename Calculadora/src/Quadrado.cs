@@ -3,26 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-namespace Calculadora.src
+namespace CalcArea.src
 {
-    public class Quadrado : Calculos
-    {
-        public double Lado1 { get; set; }
-        public double Lado2 { get; set; }
-        public double AreaQuadrado { get; set; }
-       
-
-        public Quadrado(){}
-
-        public Quadrado(double lado1, double lado2, double areaquadrado)
+    public class Quadrado : Formas
+    {   
+        public Quadrado(string _nome, double _base, double _altura) : base(_nome, _base, _altura)
         {
-            
-            Lado1 = lado1;
-            Lado2 = lado2;
-            AreaQuadrado = _calculos.Multiplicar(lado1, lado2);
-
         }
-      
+
+        public override double CalcularArea()
+        {
+            double area = Base * Altura;
+            return area;
+        }
     }
 }

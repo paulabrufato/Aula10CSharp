@@ -1,24 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Calculadora.src;
+using CalcArea.src;
 
-namespace Calculadora
+namespace CalcArea
 {
-    class Program 
+    class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Calculadora");
+        {   
+            Console.WriteLine("Medida dos lados do quadrado: ");
+            double ladoQuadrado = double.Parse(Console.ReadLine());
+            Quadrado quadrado = new Quadrado("quadrado", ladoQuadrado, ladoQuadrado);
+            Console.WriteLine($"A base do {quadrado.Nome} é {quadrado.Base} e a altura é {quadrado.Altura}\nA area é {quadrado.CalcularArea()}");
 
-            Calculos objeto = new Calculos();
+            Console.WriteLine("Base do retângulo: ");
+            double baseRetangulo = double.Parse(Console.ReadLine());
+            Console.WriteLine("Altura do retângulo: ");
+            double alturaRetangulo = double.Parse(Console.ReadLine());
+            Retangulo retangulo = new Retangulo("retangulo", baseRetangulo, alturaRetangulo);
+            Console.WriteLine($"A base do {retangulo.Nome} é {retangulo.Base} e a altura é {retangulo.Altura}\nA area é {retangulo.CalcularArea()}");
 
-            Console.WriteLine($"A área do triangulo é a base x altura / 2, resultando em: {objeto.AreaTriangulo}.");
-            Console.WriteLine($"A área do retângulo é a base x sua altura, resultando em: {objeto.Multiplicar}.");
-            Console.WriteLine($"A área do quadrado é lado x lado, resultando em: {objeto.Multiplicar}.");
-
-            
+            Console.WriteLine("Base do triângulo: ");
+            double baseTriangulo = double.Parse(Console.ReadLine());
+            Console.WriteLine("Altura do triângulo: ");
+            double alturaTriangulo = double.Parse(Console.ReadLine());
+            Triangulo triangulo = new Triangulo("triangulo", baseTriangulo, alturaTriangulo);
+            Console.WriteLine($"A base do {triangulo.Nome} é {triangulo.Base} e a altura é {triangulo.Altura}\nA area é {triangulo.CalcularArea()}");
         }
     }
 }

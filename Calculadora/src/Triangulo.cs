@@ -3,28 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-namespace Calculadora.src
+namespace CalcArea.src
 {
-    public class Triangulo : Calculos
+    public class Triangulo : Formas
     {
-        public double Altura { get; set; }
-        public double Base { get; set; }
-        public double AreaTriangulo { get; set; }
-        
-        
-                
-
-        public Triangulo(){}
-
-        public Triangulo(double altura, double Base, double AreaTriangulo)
+        public Triangulo(string _nome, double _base, double _altura) : base(_nome, _base, _altura)
         {
-          
-            Altura = altura;
-            Base = Base;
-            AreaTriangulo = _calculos.AreaTriangulo(altura, Base);
-
         }
-        
+
+        public override double CalcularArea()
+        {
+            double area = (Base * Altura)/2;
+            return area;
+        }
     }
 }
